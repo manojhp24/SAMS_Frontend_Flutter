@@ -1,0 +1,87 @@
+name: gym_app
+description: "A new Flutter project."
+
+
+publish_to: 'none'
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #State Management
+  get: ^4.7.2
+
+
+  #FireBase
+
+
+
+  #Utilies
+  flutter_screenutil: ^5.8.4
+
+
+
+  
+  
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+
+
+  flutter_lints: ^5.0.0
+
+
+
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/logos/
+    - assets/images/
+    - assets/fonts/
+
+
+#------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Inter
+      fonts:
+        # 18pt Fonts
+        - asset: assets/fonts/Inter_18pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter_18pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_18pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_18pt-Bold.ttf
+          weight: 700
+
+        # 24pt Fonts
+        - asset: assets/fonts/Inter_24pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter_24pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_24pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_24pt-Bold.ttf
+          weight: 700
+
