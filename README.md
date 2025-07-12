@@ -38,7 +38,7 @@ This system allows:
 
 ```bash
 # Clone the repository
-git clone https://github.com/manojhp24/FitnessApp.git
+git clone https://github.com/manojhp24/SAMS_Frontend_Flutter.git
 
 # Navigate to the project directory
-cd FitnessApp
+cd SAMS_Frontend_Flutter
