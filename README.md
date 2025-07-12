@@ -19,8 +19,6 @@ This system allows:
 - 👨‍💼 Admin management panel (students, teachers, subjects)
 - 📊 Attendance history & reports
 - 🔒 Secure login for teachers and admins
-- ☁️ Firebase integration for backend and auth
-
 ---
 
 ## 🚀 Getting Started
