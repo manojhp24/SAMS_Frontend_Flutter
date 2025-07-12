@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gym_app/Utils/Constants/colors.dart';
+import 'package:SAMS/Utils/Constants/colors.dart';
 
 class GElevatedButtonTheme {
   GElevatedButtonTheme._();

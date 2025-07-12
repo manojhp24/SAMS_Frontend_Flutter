@@ -10,7 +10,7 @@ class LoginForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         //Email and Password Field
         Form(
@@ -70,6 +70,12 @@ class LoginForm extends StatelessWidget {
             ),
           ),
         ),
+
+        SizedBox(height: GSizes.spaceBetweenItemsMedium),
+
+
+
+
       ],
     );
   }

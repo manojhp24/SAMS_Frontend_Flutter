@@ -11,7 +11,6 @@ class LoginTitle extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-
         Text(
           GTexts.signupTitle,
           style: Theme.of(context).textTheme.headlineLarge!.copyWith(

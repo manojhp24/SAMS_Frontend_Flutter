@@ -1,5 +1,6 @@
 class GImageString{
 
-  static String appLogo = "assets/logos/logo_app.png";
+  static String appLogo = "assets/logos/mitm_logo.png";
+  static String googleLogo = "assets/logos/googleLogo.png";
 
 }

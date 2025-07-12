@@ -8,8 +8,8 @@ class GSizes {
 
   // Screen Padding
   static EdgeInsets screenPadding = EdgeInsets.symmetric(
-    horizontal: 24.w, // Horizontal padding
-    vertical: 16.h,   // Vertical padding
+    horizontal: 24.w,
+    vertical: 16.h,
   );
 
   // Space between items

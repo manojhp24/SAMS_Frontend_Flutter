@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:gym_app/Features/authentication/View/login/login_screen.dart';
-import 'package:gym_app/Utils/AppTheme/theme.dart';
+import 'package:SAMS/Features/authentication/View/login/login_screen.dart';
+import 'package:SAMS/Utils/AppTheme/theme.dart';
 
 
 class MyApp extends StatelessWidget {

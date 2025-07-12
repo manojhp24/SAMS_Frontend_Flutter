@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gym_app/Utils/AppTheme/CustomTheme/elevated_button_theme.dart';
-import 'package:gym_app/Utils/AppTheme/CustomTheme/text_theme.dart';
+import 'package:SAMS/Utils/AppTheme/CustomTheme/elevated_button_theme.dart';
+import 'package:SAMS/Utils/AppTheme/CustomTheme/text_theme.dart';
 
 import 'CustomTheme/text_form_field.dart';
 

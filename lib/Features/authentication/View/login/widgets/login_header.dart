@@ -11,22 +11,25 @@ class LoginHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        CircleAvatar(
-          radius: 30.r,
-          backgroundImage: AssetImage(GImageString.appLogo),
-          backgroundColor: GColors.lightText,
-        ),
+    return Padding(
+      padding: EdgeInsets.only(top: 30.h),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          CircleAvatar(
+            radius: 30.r,
+            backgroundImage: AssetImage(GImageString.appLogo),
+            backgroundColor: GColors.lightText,
+          ),
 
-        SizedBox(width: GSizes.spaceBetweenItemsSmall),
+          SizedBox(width: GSizes.spaceBetweenItemsSmall),
 
-        Text(GTexts.logoTitle, style: Theme.of(context).textTheme.titleSmall!.copyWith(
-          
-        )),
+          Text(GTexts.logoTitle, style: Theme.of(context).textTheme.titleSmall!.copyWith(
 
-      ],
+          )),
+
+        ],
+      ),
     );
   }
 }

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gym_app/Features/authentication/View/login/widgets/login_form.dart';
-import 'package:gym_app/Features/authentication/View/login/widgets/login_header.dart';
-import 'package:gym_app/Features/authentication/View/login/widgets/login_title.dart';
-import 'package:gym_app/Utils/Constants/sizes.dart';
+import 'package:SAMS/Features/authentication/View/login/widgets/login_form.dart';
+import 'package:SAMS/Features/authentication/View/login/widgets/login_header.dart';
+import 'package:SAMS/Features/authentication/View/login/widgets/login_title.dart';
+import 'package:SAMS/Utils/Constants/sizes.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -16,7 +16,8 @@ class LoginScreen extends StatelessWidget {
           child: Padding(
             padding: GSizes.screenPadding,
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 //Login-Header
                 LoginHeader(),
