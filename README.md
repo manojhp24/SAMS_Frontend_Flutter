@@ -29,8 +29,6 @@ This system allows:
 
 - Flutter SDK installed
 - Dart SDK installed
-- Firebase project with Firestore and Authentication enabled
-- Node.js (for backend if using Laravel/Node.js web panel)
 
 ---
 
