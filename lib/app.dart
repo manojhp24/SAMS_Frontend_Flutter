@@ -1,3 +1,4 @@
+import 'package:SAMS/Bindings/navigation_bindings/NavigationBinding.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:SAMS/Features/authentication/View/login/login_screen.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       darkTheme: GAppThem.darkTheme,
       themeMode: ThemeMode.system,
       home: LoginScreen(),
+      initialBinding: NavigationBinding(),
     );
   }
 }

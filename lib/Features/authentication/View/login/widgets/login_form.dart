@@ -1,5 +1,7 @@
+import 'package:SAMS/navigation_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 import '../../../../../Utils/Constants/colors.dart';
 import '../../../../../Utils/Constants/sizes.dart';
 import '../../../../../Utils/Constants/texts.dart';
@@ -54,7 +56,7 @@ class LoginForm extends StatelessWidget {
 
         //Login Button
         InkWell(
-          onTap: () {},
+          onTap: () => Get.to(NavigationMenu()),
           splashColor: GColors.lightText.withValues(alpha: 0.6),
           highlightColor: GColors.transparent,
           child: Container(
